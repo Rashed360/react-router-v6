@@ -1,0 +1,63 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+.navbar {
+  background-color: whitesmoke;
+  font-size: 18px;
+}
+.navbar h3 {
+  margin-left: 30px;
+  display: inline-block;
+}
+.navbar a {
+  display: inline-block;
+  text-decoration: none;
+  color: crimson;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.navbar a:last-child {
+  padding-right: 20px;
+}
+.navbar a:hover {
+  color: red;
+}
+.app {
+  margin: 10px 30px;
+}
+.btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  color: black;
+  background-color: tomato;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.btn:hover {
+  background-color: rgb(248, 82, 53);
+}
+.btn:active {
+  color: white;
+  border: 1px dotted rgb(29, 29, 29);
+  background-color: rgb(247, 71, 40);
+}
+.card {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+.product {
+  padding: 30px;
+  text-align: center;
+}
+.product.fea {
+  background-color: burlywood;
+}
+.product.new {
+  background-color: darkkhaki;
+}
